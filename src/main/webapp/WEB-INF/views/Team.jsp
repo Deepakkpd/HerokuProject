@@ -34,11 +34,11 @@ margin:0;
 			<div class="container container-fluid">
 				<div class="navbar-header">
 					<div class="row">
-						<a class="navbar-brand" href=${pageContext.request.contextPath}/test>DAILY EXPENSE TRACKER</a>
+						<a class="navbar-brand" href=${pageContext.request.contextPath}/admin/test>DAILY EXPENSE TRACKER</a>
 						<ul class="nav navbar-nav navbar-right">
-							<li><a class="navbar-brand" href=${pageContext.request.contextPath}/search>Search</a></li>
-							<li><a class="navbar-brand" href=${pageContext.request.contextPath}/dash>Statistics</a></li> 
-							<li><a class="navbar-brand" href=${pageContext.request.contextPath}/team>Team</a></li>
+							<li><a class="navbar-brand" href=${pageContext.request.contextPath}/admin/search>Search</a></li>
+							<li><a class="navbar-brand" href=${pageContext.request.contextPath}/admin/dash>Statistics</a></li> 
+							<li><a class="navbar-brand" href=${pageContext.request.contextPath}/admin/team>Team</a></li>
 							<li><a class="navbar-brand"
 								href=${pageContext.request.contextPath}/logout.jsp>Logout</a></li>
 						</ul>
