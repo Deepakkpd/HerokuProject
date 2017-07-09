@@ -24,6 +24,22 @@ background-size:100%;
 	</style>
 </head>
 <body class="bg">
-	<h1>Expense Manager</h1>
+					<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container container-fluid">
+				<div class="navbar-header">
+					<div class="row">
+						<a class="navbar-brand" href=${pageContext.request.contextPath}/admin/test>DAILY EXPENSE TRACKER</a>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a class="navbar-brand" href=${pageContext.request.contextPath}/admin/search>Search</a></li>
+							<li><a class="navbar-brand" href=${pageContext.request.contextPath}/admin/dash>Statistics</a></li> 
+							<li><a class="navbar-brand" href=${pageContext.request.contextPath}/admin/team>Team</a></li>
+							<li><a class="navbar-brand"
+								href=${pageContext.request.contextPath}/logout.jsp>Logout</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+	
 </body>
 </html>
