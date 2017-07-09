@@ -46,7 +46,7 @@
  
  	.bg{
 	background:url('${pageContext.request.contextPath}/resources/core/images/bckgrnd.jpg')no-repeat;
-background-size:100%;
+background-size:100% auto;
 	}
 </style>   
   </head>
@@ -61,7 +61,7 @@ background-size:100%;
 							<li><a class="navbar-brand" >     </a></li>
 							<li><a class="navbar-brand" >       </a></li> 
 							<li><a class="navbar-brand" >       </a></li>
-							<li><a class="navbar-brand" href=${pageContext.request.contextPath}/admin/team>Login</a></li>
+							<li><a class="navbar-brand" href=${pageContext.request.contextPath}/login>Login</a></li>
 						</ul>
 					</div>
 				</div>
