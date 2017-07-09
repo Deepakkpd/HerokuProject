@@ -43,11 +43,12 @@
      
      text-align:center;
  }
- body {
-    
-    
-    background:#ff8080;
-}
+ 
+  	.bg{
+	background:url('${pageContext.request.contextPath}/resources/core/images/bckgrnd.jpg')no-repeat;
+background-size:100%;
+	}
+
 </style>   
  <script>
 		function formSubmit() {
@@ -59,7 +60,18 @@
 		}
 	</script>
   </head>
-  <body >
+  <body class="bg">
+    					<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container container-fluid">
+				<div class="navbar-header">
+					<div class="row">
+						<a class="navbar-brand">DAILY EXPENSE TRACKER</a>
+						<ul class="nav navbar-nav navbar-right">
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
 
 <div class="container">
     <div class="row">
