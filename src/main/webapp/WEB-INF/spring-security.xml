@@ -23,7 +23,7 @@
     </http>  -->
     
     <http use-expressions="false">
-        <intercept-url pattern="/" access="ROLE_USER" /> <!-- /admin/** -->
+        <intercept-url pattern="/**" access="ROLE_USER" /> <!-- /admin/** -->
         <form-login
 		    login-page="/login"  
 		    default-target-url="/admin/test"
