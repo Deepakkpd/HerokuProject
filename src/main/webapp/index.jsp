@@ -23,7 +23,7 @@ background-size:100%;
 	}
 	</style>
 </head>
-<body>
+<body class="bg">
 	<h1>Expense Manager</h1>
 </body>
 </html>
