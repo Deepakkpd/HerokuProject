@@ -124,7 +124,7 @@ background-size:100% auto;
 </style>
 
 </head>
-<body class="bg">
+<body>
 	<form:form commandName="helloForm" name="helloForm" method="post"
 		id="helloForm" action="/test">
 		<nav class="navbar navbar-inverse navbar-fixed-top">
