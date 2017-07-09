@@ -116,10 +116,15 @@
 	opacity: .5;
 }
 
+ 	.bg{
+	background:url('${pageContext.request.contextPath}/resources/core/images/bckgrnd.jpg')no-repeat;
+background-size:100% auto;
+	}
+
 </style>
 
 </head>
-<body>
+<body class="bg">
 	<form:form commandName="helloForm" name="helloForm" method="post"
 		id="helloForm" action="/test">
 		<nav class="navbar navbar-inverse navbar-fixed-top">

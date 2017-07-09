@@ -23,8 +23,7 @@ background-size:100% auto;
 	}
 	</style>
 </head>
-<body>
-<div class="bg">
+<body class="bg">
 					<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container container-fluid">
 				<div class="navbar-header">
@@ -40,6 +39,5 @@ background-size:100% auto;
 				</div>
 			</div>
 		</nav>
-</div>	
 </body>
 </html>

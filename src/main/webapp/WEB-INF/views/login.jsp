@@ -50,14 +50,16 @@ background-size:100% auto;
 	}
 </style>   
   </head>
-  <body>
-  <div class="bg">
+  <body class="bg">
   					<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container container-fluid">
 				<div class="navbar-header">
 					<div class="row">
 						<a class="navbar-brand">DAILY EXPENSE TRACKER</a>
 						<ul class="nav navbar-nav navbar-right">
+						<li><a class="navbar-brand" >     </a></li>
+							<li><a class="navbar-brand" >       </a></li> 
+							<li><a class="navbar-brand" >       </a></li>
 						</ul>
 					</div>
 				</div>
@@ -91,6 +93,5 @@ background-size:100% auto;
     </div>
 </div>
         
-</div>
   </body>
 </html>
