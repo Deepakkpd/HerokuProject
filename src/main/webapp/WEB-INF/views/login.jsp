@@ -61,7 +61,7 @@ background-size:100% auto;
 							<li><a class="navbar-brand" >     </a></li>
 							<li><a class="navbar-brand" >       </a></li> 
 							<li><a class="navbar-brand" >       </a></li>
-							<li><a class="navbar-brand" href=${pageContext.request.contextPath}/login>Login</a></li>
+							<li><a class="navbar-brand" href=${pageContext.request.contextPath}/login>                   Login</a></li>
 						</ul>
 					</div>
 				</div>
