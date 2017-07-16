@@ -17,23 +17,22 @@
 	href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
 	rel="stylesheet">
 	<style >
-	.bg{
+	/* .bg{
 	background:url('${pageContext.request.contextPath}/resources/core/images/bckgrnd.jpg')no-repeat;
 background-size:100% auto;
-	}
+	} */
+	(new Image()).src = "${pageContext.request.contextPath}/resources/core/images/bckgrnd.jpg')no-repeat";
 	</style>
 </head>
-<body class="bg">
+<body>
 					<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container container-fluid">
 				<div class="navbar-header">
 					<div class="row">
 						<a class="navbar-brand">DAILY EXPENSE TRACKER</a>
 						<ul class="nav navbar-nav navbar-right">
-							<li><a class="navbar-brand" >             													 </a></li> 
-							<li><a class="navbar-brand" >      															 </a></li> 
-							<li><a class="navbar-brand" >      															 </a></li>
-							<li><a class="navbar-brand" href=${pageContext.request.contextPath}/login><i class="fa fa-user" aria-hidden="true"></i> Login</a></li>
+							<li><a class="navbar-brand" href=${pageContext.request.contextPath}/login><i class="fa fa-user" aria-hidden="true"></i>                  
+												Login</a></li>
 						</ul>
 					</div>
 				</div>
