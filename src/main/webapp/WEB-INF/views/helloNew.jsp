@@ -117,7 +117,7 @@
 	opacity: .5;
 }
 body{
-	background:url('${pageContext.request.contextPath}/resources/core/images/teamBg1.jpg')no-repeat;
+background:url('${pageContext.request.contextPath}/resources/core/images/teamBg1.jpg')no-repeat;
 background-size:100%;
 height: 140px;
 display:block;
