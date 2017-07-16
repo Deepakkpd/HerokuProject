@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width">
   <title>404 Page Not Found - Airbnb</title>
 
   <link href="https://a1.muscache.com/airbnb/static/packages/common_o2.1-f8a73ee0d4378e3442aa7772f248998e.css" media="all" rel="stylesheet" type="text/css">

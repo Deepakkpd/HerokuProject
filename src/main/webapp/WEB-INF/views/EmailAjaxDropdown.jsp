@@ -5,6 +5,7 @@
 <!DOCTYPE html>
 <html  lang="en">
   <head>
+  <meta name="viewport" content="width=device-width">
     <title>SearchAjax</title>
     <spring:url value="/resources/core/jquery/jquery.min.js" var="coreJs" />
 <script src="${coreJs}"></script>

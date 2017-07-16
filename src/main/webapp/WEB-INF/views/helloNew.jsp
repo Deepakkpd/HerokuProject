@@ -6,6 +6,7 @@
 <head>
 <meta http-equiv="Content-Type"
 	content="text/html; accept-charset=utf-8" />
+	<meta name="viewport" content="width=device-width">
 <title>Maven + Spring MVC + @JavaConfig</title>
 
 <spring:url value="/resources/core/css/hello.css" var="coreCss" />

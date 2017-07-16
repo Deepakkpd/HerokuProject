@@ -6,6 +6,7 @@
 <head>
 <meta http-equiv="Content-Type"
 	content="text/html; accept-charset=utf-8" />
+	<meta name="viewport" content="width=device-width">
 <link rel="icon" type="image/png" href="assets/img/favicon.ico">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 

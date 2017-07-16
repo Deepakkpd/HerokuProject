@@ -51,7 +51,7 @@ background-size:100% auto;
 	}
 </style>   
   </head>
-  <body class="bg">
+  <body>
   					<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container container-fluid">
 				<div class="navbar-header">
@@ -66,7 +66,7 @@ background-size:100% auto;
 				</div>
 			</div>
 		</nav>
-
+<div class="bg">
 <div class="container">
     <div class="row">
         <div class="form_bg">
@@ -93,6 +93,6 @@ background-size:100% auto;
         </div>
     </div>
 </div>
-        
+ </div>       
   </body>
 </html>
