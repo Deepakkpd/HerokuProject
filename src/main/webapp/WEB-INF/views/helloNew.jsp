@@ -414,25 +414,6 @@
 type="text/javascript"></script>
 <spring:url value="/resources/core/jquery/jquery.validate.min.js" var="jqueryValJs" />
 		<script src="${jqueryValJs}"></script>
-		<!-- <script>
-		$("#helloForm").validate(
-				{
-				rules: 
-				{
-					dateOfExpend: 
-				{
-				/* required: true */
-				},
-				messages: 
-				{
-					dateOfExpend: 
-				{
-				required: "Please enter your name"
-				}
-				}
-				}
-				}); 
-		</script> -->
 		<script type="text/javascript">
 $('.alphaonly').bind('keyup blur',function(){ 
     var node = $(this);
