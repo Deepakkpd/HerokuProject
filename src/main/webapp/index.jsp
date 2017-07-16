@@ -30,9 +30,9 @@ background-size:100% auto;
 					<div class="row">
 						<a class="navbar-brand">DAILY EXPENSE TRACKER</a>
 						<ul class="nav navbar-nav navbar-right">
-							<li><a class="navbar-brand" >              </a></li> 
-							<li><a class="navbar-brand" >       </a></li> 
-							<li><a class="navbar-brand" >       </a></li>
+							<li><a class="navbar-brand" >             													 </a></li> 
+							<li><a class="navbar-brand" >      															 </a></li> 
+							<li><a class="navbar-brand" >      															 </a></li>
 							<li><a class="navbar-brand" href=${pageContext.request.contextPath}/login><i class="fa fa-user" aria-hidden="true"></i> Login</a></li>
 						</ul>
 					</div>
