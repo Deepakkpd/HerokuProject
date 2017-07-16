@@ -45,10 +45,23 @@
      text-align:center;
  }
  
-  	.bg{
-	background:url('${pageContext.request.contextPath}/resources/core/images/bckgrnd.jpg')no-repeat;
-background-size:100%;
-	}
+ 	 .bg{
+
+background-image: url('${pageContext.request.contextPath}/resources/core/images/bckgrnd.jpg'); 
+    height: 500px;
+
+    width: 100%;
+    background-repeat: no-repeat;
+
+    background-position: center center;
+    background-attachment: fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+    background-size: cover;
+	} 
 
 </style>   
  <script>

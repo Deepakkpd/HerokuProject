@@ -46,8 +46,6 @@
  }
  
  	 .bg{
-	/* background:url('${pageContext.request.contextPath}/resources/core/images/bckgrnd.jpg')no-repeat;
-background-size:100% auto; */
 
 background-image: url('${pageContext.request.contextPath}/resources/core/images/bckgrnd.jpg'); 
     height: 500px;

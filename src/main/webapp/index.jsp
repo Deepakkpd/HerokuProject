@@ -19,10 +19,23 @@
 	href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
 	rel="stylesheet">
 	<style >
-	.bg{
-	background:url('${pageContext.request.contextPath}/resources/core/images/bckgrnd.jpg')no-repeat;
-background-size:100% auto;
-	}
+ 	 .bg{
+
+background-image: url('${pageContext.request.contextPath}/resources/core/images/bckgrnd.jpg'); 
+    height: 500px;
+
+    width: 100%;
+    background-repeat: no-repeat;
+
+    background-position: center center;
+    background-attachment: fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+    background-size: cover;
+	} 
 	</style>
 </head>
 <body class="bg">

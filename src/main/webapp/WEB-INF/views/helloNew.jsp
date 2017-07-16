@@ -117,15 +117,28 @@
 	opacity: .5;
 }
 
- 	.bg{
-	background:url('${pageContext.request.contextPath}/resources/core/images/bckgrnd.jpg')no-repeat;
-background-size:100% auto;
-	}
+ 	 .bg{
+
+background-image: url('${pageContext.request.contextPath}/resources/core/images/source.gif'); 
+    height: 500px;
+
+    width: 100%;
+    background-repeat: no-repeat;
+
+    background-position: center center;
+    background-attachment: fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+    background-size: cover;
+	} 
 
 </style>
 
 </head>
-<body>
+<body class="bg">
 	<form:form commandName="helloForm" name="helloForm" method="post"
 		id="helloForm" action="/test">
 		<nav class="navbar navbar-inverse navbar-fixed-top">
