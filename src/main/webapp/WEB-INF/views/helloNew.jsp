@@ -382,7 +382,7 @@ background-color: #000000;
 					</tr>
 				</tbody>
 			</table>
-			<hr>
+			
 			<footer>
 				<p>&copy; Deepak.com 2017</p>
 			</footer>
