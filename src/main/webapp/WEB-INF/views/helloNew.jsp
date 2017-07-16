@@ -117,7 +117,12 @@
 	opacity: .5;
 }
 body{
-background-color: #000000;
+	background:url('${pageContext.request.contextPath}/resources/core/images/teamBg1.jpg')no-repeat;
+background-size:100%;
+height: 140px;
+display:block;
+padding:0 !important;
+margin:0;
 }
 
 </style>
@@ -163,7 +168,7 @@ background-color: #000000;
 			<table class="table table-hover"
 				style="width: 100%;>
 				<thead>
-					<tr align="center" bgcolor=="#ffffff">
+					<tr align="center" bgcolor=="#000000">
 						<th>
 							<div class="panel panel-primary">
 								<div class="panel-heading">
