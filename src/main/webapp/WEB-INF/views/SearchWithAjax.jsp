@@ -83,7 +83,9 @@ background-image: url('${pageContext.request.contextPath}/resources/core/images/
 		</nav>
 		<br>
 		<br>
-  <h1 style="color: white; font-weight: bold; font-family: cursive;"><u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Search By Item Name</u></h1><br>
+  <h1 style="color: white; font-weight: bold; font-family: cursive;">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <u> Search By Item Name</u></h1><br>
   
 <div align="center">
 <input class="form-control" id="searchBox" style="width: 1000px;" type="text" onkeyup="doSearch();" placeholder="Enter the Item Name to search"/><p>
