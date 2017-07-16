@@ -5,10 +5,9 @@
 <html lang="en">
 <head>
 <title>Expense Manager</title>
-<!-- <meta http-equiv="Content-Type"
-	content="text/html; accept-charset=utf-8" /> -->
-	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type"
+	content="text/html; accept-charset=utf-8" /> 
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Insert title here</title>
 <spring:url value="/resources/core/css/hello.css" var="coreCss" />
