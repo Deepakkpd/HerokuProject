@@ -45,13 +45,28 @@
      text-align:center;
  }
  
- 	.bg{
-	background:url('${pageContext.request.contextPath}/resources/core/images/bckgrnd.jpg')no-repeat;
-background-size:100% auto;
-	}
+ 	 .bg{
+	/* background:url('${pageContext.request.contextPath}/resources/core/images/bckgrnd.jpg')no-repeat;
+background-size:100% auto; */
+
+background-image: url('${pageContext.request.contextPath}/resources/core/images/bckgrnd.jpg'); 
+    height: 500px;
+
+    width: 100%;
+    background-repeat: no-repeat;
+
+    background-position: center center;
+    background-attachment: fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+    background-size: cover;
+	} 
 </style>   
   </head>
-  <body>
+  <body class="bg">
   					<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container container-fluid">
 				<div class="navbar-header">
@@ -66,7 +81,6 @@ background-size:100% auto;
 				</div>
 			</div>
 		</nav>
-<div class="bg">
 <div class="container">
     <div class="row">
         <div class="form_bg">
@@ -93,6 +107,5 @@ background-size:100% auto;
         </div>
     </div>
 </div>
- </div>       
   </body>
 </html>
