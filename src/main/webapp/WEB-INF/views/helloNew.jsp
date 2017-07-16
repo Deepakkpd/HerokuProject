@@ -119,7 +119,7 @@
 
  	 .bg{
 
-background-image: url('${pageContext.request.contextPath}/resources/core/images/source.gif'); 
+background-image: url('${pageContext.request.contextPath}/resources/core/images/source.jpg'); 
     height: 500px;
 
     width: 100%;
