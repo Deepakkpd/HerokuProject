@@ -163,7 +163,7 @@ background-color: #000000;
 			<table class="table table-hover"
 				style="width: 100%;>
 				<thead>
-					<tr align="center">
+					<tr align="center" class="active">
 						<th>
 							<div class="panel panel-primary">
 								<div class="panel-heading">
