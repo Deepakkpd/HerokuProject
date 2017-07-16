@@ -17,14 +17,23 @@
 	href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
 	rel="stylesheet">
 	<style >
-	.bg{
-	background:url('${pageContext.request.contextPath}/resources/core/images/teamBg1.jpg')no-repeat;
-background-size:100%;
-height: 140px;
-display:block;
-padding:0 !important;
-margin:0;
-	}
+	 	 .bg{
+
+background-image: url('${pageContext.request.contextPath}/resources/core/images/teamBg1.jpg'); 
+    height: 500px;
+
+    width: 100%;
+    background-repeat: no-repeat;
+
+    background-position: center center;
+    background-attachment: fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+    background-size: cover;
+	} 
 	</style>
 
 </head>
