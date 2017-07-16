@@ -159,8 +159,7 @@
 			<font style="font: italic; font: bold; color: red; size: 2">
 <c:out value="${helloForm.errorMsg}"></c:out> </font>
 			<table class="table table-hover"
-				style="width: 100%; border-style: solid; border-width: 4px;"
-				border="12px;">
+				style="width: 100%;>
 				<thead>
 					<tr align="center">
 						<th>
