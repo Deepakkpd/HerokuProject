@@ -17,14 +17,13 @@
 	href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
 	rel="stylesheet">
 	<style >
-	/* .bg{
+	.bg{
 	background:url('${pageContext.request.contextPath}/resources/core/images/bckgrnd.jpg')no-repeat;
 background-size:100% auto;
-	} */
-	(new Image()).src = "${pageContext.request.contextPath}/resources/core/images/bckgrnd.jpg')no-repeat";
+	}
 	</style>
 </head>
-<body>
+<body class="bg">
 					<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container container-fluid">
 				<div class="navbar-header">
